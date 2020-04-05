@@ -23,7 +23,7 @@ $(document).ready(function(){
   });
 
 function displayHTMLTable(results){
-  var table = "<table class='table'>";
+  var table = "<table class='csv table'>";
   var data = results.data;
 
   for(i=0;i<data.length;i++){
